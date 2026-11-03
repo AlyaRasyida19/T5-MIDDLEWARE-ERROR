@@ -223,12 +223,18 @@ Dokumentasi pengujian meliputi:
 5. ![05-route-not-found](screenshot/05-route-not-found.jpeg) — Pengujian endpoint yang tidak tersedia.
 6. ![06-post-menu](screenshot/06-post-menu.jpeg) — Pengujian menambahkan menu baru.
 7. ![07-api-key-salah](screenshot/07-api-key-salah.jpeg) — Pengujian API Key yang tidak valid.
-8. ![08-validasi](screenshot/08-validasi.jpeg) — Pengujian data yang tidak sesuai ketentuan validasi.
-9. ![09-duplikat](screenshot/09-duplikat.jpeg) — Pengujian penambahan nama menu yang sudahh terdaftar.
-10. ![10-delete-menu](screenshot/10-delete-menu.jpeg) — Pengujian menghapus data menu.
-11. ![11-delete-not-found](screenshot/11-delete-not-found.jpeg) — Pengujian penghapusan menu dengan ID yang tidak ditemukan.
-12. ![12-error-500](screenshot/12-error-500.jpeg) — Pengujian penanganan kesalahan internal server.
-13. ![13-logger](screenshot/13-logger.jpeg) — Dokumentasi hasil pencatatan request pada terminal.
+8. ![08-validasi](screenshot/08-validasi.jpeg) 
+— Pengujian data yang tidak sesuai ketentuan validasi.
+9. ![09-duplikat](screenshot/09-duplikat.jpeg) 
+— Pengujian penambahan nama menu yang sudahh terdaftar.
+10. ![10-delete-menu](screenshot/10-delete-menu.jpeg)
+ — Pengujian menghapus data menu.
+11. ![11-delete-not-found](screenshot/11-delete-not-found.jpeg) 
+— Pengujian penghapusan menu dengan ID yang tidak ditemukan.
+12. ![12-error-500](screenshot/12-error-500.jpeg) 
+— Pengujian penanganan kesalahan internal server.
+13. ![13-logger](screenshot/13-logger.jpeg) 
+— Dokumentasi hasil pencatatan request pada terminal.
 
 Selain pengujian melalui REST Client, file `requests.http` juga disediakan untuk mempermudah pengujian seluruh endpoint.
 
