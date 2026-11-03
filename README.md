@@ -216,19 +216,19 @@ Pengujian dilakukan menggunakan REST Client pada Visual Studio Code untuk memast
 
 Dokumentasi pengujian meliputi:
 
-1. [01-get-menu](screenshot/01-get-menu.jpeg)  — Pengujian mengambil seluruh data menu.
-2. [02-filter-menu](screenshot/02-filter-menu.jpeg) — Pengujian filter menu berdasarkan kategori.
-3. [03-get-detail](screenshot/03-get-detail.jpeg) — Pengujian mengambil detail menu berdasarkan ID.
-4. [04-not-found](screenshot/04-not-found.jpeg) — Pengujian ketika ID menu tidak ditemukan.
-5. [05-route-not-found](screenshot/05-route-not-found.jpeg) — Pengujian endpoint yang tidak tersedia.
-6. [06-post-menu](screenshot/06-post-menu.jpeg) — Pengujian menambahkan menu baru.
-7. [07-api-key-salah](screenshot/07-api-key-salah.jpeg) — Pengujian API Key yang tidak valid.
-8. [08-validasi](screenshot/08-validasi.jpeg) — Pengujian data yang tidak sesuai ketentuan validasi.
-9. [09-duplikat](screenshot/09-duplikat.jpeg) — Pengujian penambahan nama menu yang sudah terdaftar.
-10. [10-delete-menu](screenshot/10-delete-menu.jpeg) — Pengujian menghapus data menu.
-11. [11-delete-not-found](screenshot/11-delete-not-found.jpeg) — Pengujian penghapusan menu dengan ID yang tidak ditemukan.
-12. [12-error-500](screenshot/12-error-500.jpeg) — Pengujian penanganan kesalahan internal server.
-13. [13-logger](screenshot/13-logger.jpeg) — Dokumentasi hasil pencatatan request pada terminal.
+1. ![01-get-menu](screenshot/01-get-menu.jpeg)  — Pengujian mengambil seluruh data menu.
+2. ![02-filter-menu](screenshot/02-filter-menu.jpeg) — Pengujian filter menu berdasarkan kategori.
+3. ![03-get-detail](screenshot/03-get-detail.jpeg) — Pengujian mengambil detail menu berdasarkan ID.
+4. ![04-not-found](screenshot/04-not-found.jpeg) — Pengujian ketika ID menu tidak ditemukan.
+5. ![05-route-not-found](screenshot/05-route-not-found.jpeg) — Pengujian endpoint yang tidak tersedia.
+6. ![06-post-menu](screenshot/06-post-menu.jpeg) — Pengujian menambahkan menu baru.
+7. ![07-api-key-salah](screenshot/07-api-key-salah.jpeg) — Pengujian API Key yang tidak valid.
+8. ![08-validasi](screenshot/08-validasi.jpeg) — Pengujian data yang tidak sesuai ketentuan validasi.
+9. ![09-duplikat](screenshot/09-duplikat.jpeg) — Pengujian penambahan nama menu yang sudah terdaftar.
+10.![10-delete-menu](screenshot/10-delete-menu.jpeg) — Pengujian menghapus data menu.
+11. ![11-delete-not-found](screenshot/11-delete-not-found.jpeg) — Pengujian penghapusan menu dengan ID yang tidak ditemukan.
+12. ![12-error-500](screenshot/12-error-500.jpeg) — Pengujian penanganan kesalahan internal server.
+13. ![13-logger](screenshot/13-logger.jpeg) — Dokumentasi hasil pencatatan request pada terminal.
 
 Selain pengujian melalui REST Client, file `requests.http` juga disediakan untuk mempermudah pengujian seluruh endpoint.
 
