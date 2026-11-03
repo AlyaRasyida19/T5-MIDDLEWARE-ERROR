@@ -1,0 +1,82 @@
+### 1. GET semua menu
+GET http://localhost:3000/menu
+
+### 2. GET menu kategori minuman
+GET http://localhost:3000/menu?kategori=minuman
+
+### 3. GET menu berdasarkan ID
+GET http://localhost:3000/menu/1
+
+### 4. GET menu yang tidak ditemukan
+GET http://localhost:3000/menu/99
+
+### 5. GET URL yang tidak dikenal
+GET http://localhost:3000/produk
+
+### 6. POST menambahkan menu baru
+POST http://localhost:3000/menu
+Content-Type: application/json
+x-api-key: kantin-Alya-002
+
+{
+    "nama": "Burger Mini",
+    "harga": 15000,
+    "kategori": "makanan",
+    "tersedia": true
+}
+
+### 7. POST dengan API Key salah
+POST http://localhost:3000/menu
+Content-Type: application/json
+x-api-key: salah-123
+
+{
+    "nama": "Roti Cokelat",
+    "harga": 10000,
+    "kategori": "makanan",
+    "tersedia": true
+}
+
+### 8. POST dengan data tidak valid
+POST http://localhost:3000/menu
+Content-Type: application/json
+x-api-key: kantin-Alya-002
+
+{
+    "nama": "TES",
+    "harga": 500,
+    "kategori": "dessert",
+    "tersedia": "iya"
+}
+
+### 9. POST dengan nama menu duplikat
+POST http://localhost:3000/menu
+Content-Type: application/json
+x-api-key: kantin-Alya-002
+
+{
+    "nama": "Burger Mini",
+    "harga": 20000,
+    "kategori": "makanan",
+    "tersedia": true
+}
+
+### 10. DELETE menghapus menu
+DELETE http://localhost:3000/menu/15
+x-api-key: kantin-Alya-002
+
+### 11. DELETE menu yang tidak ditemukan
+DELETE http://localhost:3000/menu/99
+x-api-key: kantin-Alya-002
+
+### 12. POST untuk menguji error 500
+POST http://localhost:3000/menu
+Content-Type: application/json
+x-api-key: kantin-Alya-002
+
+{
+    "nama": "Sate Ayam",
+    "harga": 20000,
+    "kategori": "makanan",
+    "tersedia": true
+}
